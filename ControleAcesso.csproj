@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <!-- Permite rodar também em máquinas que só tenham um runtime mais novo (ex.: .NET 9/10) -->
+    <RollForward>Major</RollForward>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>ControleAcesso</RootNamespace>
+    <AssemblyName>ControleAcesso</AssemblyName>
+  </PropertyGroup>
+
+</Project>
